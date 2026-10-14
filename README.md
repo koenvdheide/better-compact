@@ -35,7 +35,7 @@ Run `/reload-plugins` if you installed mid-session.
 
 ## Requirements
 
-- Claude Code with plugin support and mods turned on. If `/plugin` comes back unknown, update Claude Code first. Mods are an early-access feature enabled with `CLAUDE_CODE_ENABLE_FUNCTION_HOOKS=1`; some builds and accounts have them enabled already.
+- Claude Code with plugin support and mods turned on. If `/plugin` comes back unknown, update Claude Code first. Mods are on by default from v2.1.287 (v2.1.286 in the Desktop app).
 - The plugin is one TypeScript module loaded by Claude Code. It needs no Python, shell or other program on `PATH`.
 
 ## Configuration
